@@ -1,0 +1,31 @@
+.header-area {
+    background-color: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
+
+.btn-Common {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    padding: 19px 28px;
+}
+
+#header-context {
+    width: 570px;
+    height: 511px;
+    margin-left: 300px;
+    margin-right: 25px;
+}
+
+#header-img {
+    margin-right: 160px;
+    border-radius: 20px;
+}
+
+#header-img img {
+    width: 816px;
+    height: 744px;
+
+}
+
+.nav-tittle {
+    margin-left: 180px;
+}
