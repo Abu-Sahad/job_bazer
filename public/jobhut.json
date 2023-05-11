@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "job_title": "Technical Database Engineer",
+    "company_name": "Google",
+    "logo": "https://i.ibb.co/P1SBP8f/google-1-1-1-1.png",
+    "job_type": "remote",
+    "location": "mirpur-2,borobag,dhaka-1216",
+    "salary": "$50,000 - $60,000",
+    "job_description": "We are seeking a skilled software engineer to join our team and help develop new products.",
+    "job_responsibility": "Design, develop, and maintain software applications",
+    "education_requirement": "Bachelor's degree in Computer Science or related field",
+    "experience": "2+ years of experience in software development",
+    "job_type_details": {
+      "remote": true,
+      "full_time": false
+    },
+    "contact_info": {
+      "email": "jobs@abcinc.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "id": 2,
+    "job_title": "Senior Product Designer",
+    "company_name": "Netfliex",
+    "logo": "https://i.ibb.co/7KjCPn4/netflix-4-1.png",
+    "job_type": "full time",
+    "location": "New York City",
+    "salary": "$70,000 - $80,000",
+    "job_description": "We are seeking a talented marketing specialist to join our team and help drive growth for our brand.",
+    "job_responsibility": "Develop and execute marketing campaigns across various channels",
+    "education_requirement": "Bachelor's degree in Marketing or related field",
+    "experience": "3+ years of experience in marketing",
+    "job_type_details": {
+      "remote": false,
+      "full_time": true
+    },
+    "contact_info": {
+      "email": "careers@defcorp.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "id": 3,
+    "job_title": "senior Software Engineer",
+    "company_name": "Google",
+    "logo": "https://i.ibb.co/P1SBP8f/google-1-1-1-1.png",
+    "job_type": "Full Time",
+    "location": "Dubline,ireland",
+    "salary": "$60,000 - $70,000",
+    "job_description": "We are seeking a skilled web developer to join our team and help build responsive websites and applications.",
+    "job_responsibility": "Develop and maintain responsive websites and web applications",
+    "education_requirement": "Bachelor's degree in Computer Science or related field",
+    "experience": "2+ years of experience in web development",
+    "job_type_details": {
+      "remote": true,
+      "full_time": false
+    },
+    "contact_info": {
+      "email": "careers@ghico.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "id": 4,
+    "job_title": "Software Engineer",
+    "company_name": "Tesla",
+    "job_type": "Full Time",
+    "location": "New York city",
+    "logo": "https://i.ibb.co/Kr4tZd1/tesla-9-1.png",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are seeking a senior software engineer to join our team and lead the development of new products.",
+    "job_responsibility": "Lead the design, development, and maintenance of software applications",
+    "education_requirement": "Bachelor's degree in Computer Science or related field",
+    "experience": "5+ years of experience in software development",
+    "job_type_details": {
+      "remote": true,
+      "full_time": false
+    },
+    "contact_info": {
+      "email": "jobs@abcsoftware.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "id": 5,
+    "job_title": "Country Manager",
+    "company_name": "Netfliex",
+    "logo": "https://i.ibb.co/7KjCPn4/netflix-4-1.png",
+    "job_type": "Part Time",
+    "location": "Seattle",
+    "salary": "$120,000 - $140,000",
+    "job_description": "We are seeking a principal software engineer to join our team and provide technical leadership and mentorship.",
+    "job_responsibility": "Provide technical leadership and mentorship to the development team",
+    "education_requirement": "Bachelor's degree in Computer Science or related field",
+    "experience": "8+ years of experience in software development",
+    "job_type_details": {
+      "remote": false,
+      "full_time": true
+    },
+    "contact_info": {
+      "email": "careers@defsoftware.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "id": 6,
+    "job_title": " Software Tester",
+    "company_name": "Google",
+    "logo": "https://i.ibb.co/P1SBP8f/google-1-1-1-1.png",
+    "job_type": "full time",
+    "location": "San Francisco",
+    "salary": "$90,000 - $100,000",
+    "job_description": "We are seeking a senior data analyst to join our team and provide data-driven insights to support business decisions.",
+    "job_responsibility": "Analyze complex data sets and provide actionable insights to support business decisions",
+    "education_requirement": "Bachelor's degree in Statistics, Economics, or related field",
+    "experience": "2+ years of experience in web development",
+    "job_type_details": {
+      "remote": true,
+      "full_time": false
+    },
+    "contact_info": {
+      "email": "careers@ghico.com",
+      "phone": "555-555-5555"
+    }
+  }
+]

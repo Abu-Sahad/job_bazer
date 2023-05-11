@@ -15,16 +15,36 @@
     margin-right: 25px;
 }
 
+@media only screen and (max-width: 600px) {
+    #header-context {
+        margin-left: 100px;
+        margin-right: 25px;
+    }
+
+    .btn-Common {
+        padding: 10px 15px;
+    }
+
+    .button-class {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .button-class {
+        margin-top: 20px;
+    }
+}
+
+
+
 #header-img {
-    margin-right: 160px;
+    width: 816px;
+    height:570px;
     border-radius: 20px;
 }
 
-#header-img img {
-    width: 816px;
-    height: 744px;
-
-}
+#header-img img {}
 
 .nav-tittle {
     margin-left: 180px;
