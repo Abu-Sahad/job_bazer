@@ -9,7 +9,7 @@
       "job_type2": "Full Time"
     },
     "location": "mirpur-2,borobag,dhaka-1216",
-    "salary": "$50,000 - $60,000",
+    "salary": "50,000k - 60,000k",
     "job_description": "We are seeking a skilled software engineer to join our team and help develop new products.",
     "job_responsibility": "Design, develop, and maintain software applications",
     "education_requirement": "Bachelor's degree in Computer Science or related field",
@@ -29,7 +29,7 @@
       "job_type2": "Full Time"
     },
     "location": "New York City",
-    "salary": "$70,000 - $80,000",
+    "salary": "70,000k - 80,000k",
     "job_description": "We are seeking a talented marketing specialist to join our team and help drive growth for our brand.",
     "job_responsibility": "Develop and execute marketing campaigns across various channels",
     "education_requirement": "Bachelor's degree in Marketing or related field",
@@ -49,7 +49,7 @@
       "job_type2": "Full Time"
     },
     "location": "Dubline,ireland",
-    "salary": "$60,000 - $70,000",
+    "salary": "60,000k - 70,000k",
     "job_description": "We are seeking a skilled web developer to join our team and help build responsive websites and applications.",
     "job_responsibility": "Develop and maintain responsive websites and web applications",
     "education_requirement": "Bachelor's degree in Computer Science or related field",
@@ -69,7 +69,7 @@
     },
     "location": "New York city",
     "logo": "https://i.ibb.co/Kr4tZd1/tesla-9-1.png",
-    "salary": "$80,000 - $100,000",
+    "salary": "80,000k - 100,000k",
     "job_description": "We are seeking a senior software engineer to join our team and lead the development of new products.",
     "job_responsibility": "Lead the design, development, and maintenance of software applications",
     "education_requirement": "Bachelor's degree in Computer Science or related field",
@@ -89,7 +89,7 @@
       "job_type2": "Full Time"
     },
     "location": "Seattle",
-    "salary": "$120,000 - $140,000",
+    "salary": "120,000k - 140,000k",
     "job_description": "We are seeking a principal software engineer to join our team and provide technical leadership and mentorship.",
     "job_responsibility": "Provide technical leadership and mentorship to the development team",
     "education_requirement": "Bachelor's degree in Computer Science or related field",
@@ -109,7 +109,7 @@
       "job_type2": "Full Time"
     },
     "location": "San Francisco",
-    "salary": "$90,000 - $100,000",
+    "salary": "90,000k - 100,000k",
     "job_description": "We are seeking a senior data analyst to join our team and provide data-driven insights to support business decisions.",
     "job_responsibility": "Analyze complex data sets and provide actionable insights to support business decisions",
     "education_requirement": "Bachelor's degree in Statistics, Economics, or related field",

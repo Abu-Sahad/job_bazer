@@ -31,7 +31,7 @@ const Features = () => {
             {visibleJobs < jobs.length && (
                 <div className='text-center mb-10'>
                     <button onClick={handleSeeMore} className="btn-Common inline-block px-6 py-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600">
-                        See More
+                        See All Jobs
                     </button>
                 </div>
             )}

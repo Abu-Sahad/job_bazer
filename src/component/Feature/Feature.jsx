@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { MapPinIcon,CurrencyDollarIcon } from '@heroicons/react/24/solid'
 import './Feature.css'
 const Feature = ({ job }) => {
     const { logo, job_title, company_name, location, salary, } = job
@@ -13,7 +14,9 @@ const Feature = ({ job }) => {
                 <button className='future-part-button'>{job.job_type_details.job_type2}</button>
             </div>
             <div className='flex mt-4 mb-4'>
+                <MapPinIcon className="h-6 w-6 text-blue-500" />
                 <p className='me-4'>{location}</p>
+                <CurrencyDollarIcon className="h-6 w-6 text-blue-500" />
                 <p>{salary}</p>
             </div>
             <Link to="details" className="btn-Common inline-block px-6 py-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600">
