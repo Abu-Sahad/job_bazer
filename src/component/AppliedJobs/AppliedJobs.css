@@ -1,0 +1,43 @@
+.applied-job-details-tittle {
+    font-weight: 800;
+    font-size: 32px;
+    color: #1A1919;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.applied-job-logo {
+    width: 240px;
+    height: 240px;
+    background: #F4F4F4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.applied-job-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.applied-component-area {
+    margin-left: 130px;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    width: 1320px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.applied-button-component {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
