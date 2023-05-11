@@ -6,7 +6,7 @@ const Features = () => {
     const [jobs, setJobs] = useState([]);
     const [visibleJobs, setVisibleJobs] = useState(4); // initially display 4 items
     useEffect(() => {
-        fetch('jobhut.json')
+        fetch('/jobhut.json')
             .then(res => res.json())
             .then(data => setJobs(data))
     }, []);

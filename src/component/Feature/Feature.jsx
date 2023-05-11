@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
-import { MapPinIcon,CurrencyDollarIcon } from '@heroicons/react/24/solid'
+import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid'
 import './Feature.css'
 const Feature = ({ job }) => {
     const { logo, job_title, company_name, location, salary, } = job
+    // console.log(job.id)
     // console.log(job)
     return (
         <div className='future-main-part-area'>
@@ -19,9 +20,12 @@ const Feature = ({ job }) => {
                 <CurrencyDollarIcon className="h-6 w-6 text-blue-500" />
                 <p>{salary}</p>
             </div>
-            <Link to="details" className="btn-Common inline-block px-6 py-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600">
-                View Details
+            <Link to={`/details/${job.id}`}>
+                <button className="btn-Common inline-block px-6 py-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600">
+                    View Details
+                </button>
             </Link>
+
         </div>
     );
 };

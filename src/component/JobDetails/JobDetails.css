@@ -1,0 +1,44 @@
+.job-details-tittle {
+    font-weight: 800;
+    font-size: 32px;
+    color: #1A1919;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.job-component {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.job-common-tittle {
+    font-weight: 800;
+    font-size: 16px;
+    color: #1A1919;
+}
+
+.job-common-area {
+    font-weight: 500;
+    font-size: 16px;
+    color: #757575;
+}
+
+.job-details-section {
+    width: 424px;
+    height: 461px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    .job-component {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+    }
+}

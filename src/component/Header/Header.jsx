@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import './Header.css'
-import image from '../../../image/banner.png'
+// import image from '../../../image/banner.png'
 
 const Header = () => {
     return (
-        <div className="bg-[#E5E7EB]">
+        <div className="md:bg-[#E5E7EB]">
             <nav className="flex pt-10 items-center justify-between flex-wrap p-6">
                 <div className=" nav-tittle flex items-center flex-shrink-0 text-white mr-6">
                     <span className="font-bold text-3xl text-[#020617] tracking-tight lg:pl-6">Job Hut</span>
@@ -19,8 +19,8 @@ const Header = () => {
                         <Link to="/" className="block mt-4 text-[#757575] lg:inline-block lg:mt-0 mr-4">
                             Home
                         </Link>
-                        <Link to="/statistics" className="block mt-4 text-[#757575] lg:inline-block lg:mt-0 mr-4">
-                            Statistics
+                        <Link to="/applied-jobs" className="block mt-4 text-[#757575] lg:inline-block lg:mt-0 mr-4">
+                            Applied Jobs
                         </Link>
                         <Link to="/blog" className="block mt-4  text-[#757575] lg:inline-block lg:mt-0 mr-4">
                             Blog
@@ -33,24 +33,6 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-            <div className="flex flex-col md:flex-row mt-10">
-                <div className="md:w-1/2 md:pr-8 mt-20" id="header-context">
-                    <h1 className="text-5xl font-bold mb-6 " id="header-tittle">
-                        Bangladeshi Entry Level Remote Jobs-{" "}
-                        <span className="header-tittle text-blue-500">Know Here!</span>{" "}
-                    </h1>
-                    <p className="mb-4">
-                        There’s no hiding from the fact that getting into a Merit America Entry
-                        Level Remote
-                    </p>
-                    <div className="text-center mt-16 lg:text-left">
-                        <Link to="#" className="btn-Common inline-block px-6 py-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600">
-                            Get Started
-                        </Link>
-                    </div>
-                </div>
-                <div className="sm: ms-10 md:w-1/2 sm:me-10 md:h-auto md:me-32" id="header-img" style={{ backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-            </div>
 
         </div>
 
