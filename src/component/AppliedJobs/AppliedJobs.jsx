@@ -10,10 +10,12 @@ const AppliedJobs = () => {
             <div>
                 <h1 className='applied-job-details-tittle md:bg-[#E5E7EB]'>Applied Job</h1>
             </div>
-            <button className='applied-button-component'>
-                Filter By
-                <BarsArrowDownIcon className="h-6 w-6 text-blue-500 ms-2"/>
-            </button>
+            <div className='applied-button-component'>
+                <button>
+                    Filter By
+                    <BarsArrowDownIcon className="h-6 w-6 text-blue-500 ms-2" />
+                </button>
+            </div>
 
             {cartItems.map(([id, { job }]) => (
                 <div key={id}>
@@ -34,9 +36,9 @@ const AppliedJobs = () => {
                             </div>
                             <div className='flex mt-4 mb-4'>
                                 <MapPinIcon className="h-6 w-6 text-blue-500" />
-                                <p className='me-4'>{job?.location}</p>
+                                <p className='me-4'> Address:{job?.location}</p>
                                 <CurrencyDollarIcon className="h-6 w-6 text-blue-500" />
-                                <p>{job?.salary}</p>
+                                <p> Salary:{job?.salary}</p>
                             </div>
                         </div>
                         <div>
