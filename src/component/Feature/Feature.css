@@ -1,0 +1,20 @@
+.future-main-part-area {
+    width: 648px;
+    height: 392px;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.future-main-part-area img {
+    padding-left: 0;
+}
+
+.future-part-button {
+    padding: 9px;
+    border-radius: 4px;
+    border: 1px solid rgb(199, 220, 228);
+    margin-right: 10px;
+}
