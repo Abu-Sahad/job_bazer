@@ -28,17 +28,17 @@ const AppliedJobs = () => {
                             <img className="w-70 h-70 pb-4" src={job?.logo} alt="Logo" /><img src="" alt="" />
                         </div>
                         <div>
-                            <h2>{job?.job_title}</h2>
-                            <h2>{job?.company_name}</h2>
+                            <h2 className='applied-job-name'>{job?.job_title}</h2>
+                            <h2 className='applied-company-name'>{job?.company_name}</h2>
                             <div className='pt-4'>
                                 <button className='future-part-button'>{job.job_type_details.job_type1}</button>
                                 <button className='future-part-button'>{job.job_type_details.job_type2}</button>
                             </div>
                             <div className='flex mt-4 mb-4'>
                                 <MapPinIcon className="h-6 w-6 text-blue-500" />
-                                <p className='me-4'> Address:{job?.location}</p>
+                                <p className=' applied-job-common-style me-4'> Address:{job?.location}</p>
                                 <CurrencyDollarIcon className="h-6 w-6 text-blue-500" />
-                                <p> Salary:{job?.salary}</p>
+                                <p className='applied-job-common-style '> Salary:{job?.salary}</p>
                             </div>
                         </div>
                         <div>

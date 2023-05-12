@@ -53,6 +53,25 @@
     margin-left: 0.5rem;
 }
 
+.applied-job-name {
+    font-weight: 800;
+    font-size: 24px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.applied-company-name {
+    font-weight: 600;
+    font-size: 24px;
+    color: #757575;
+}
+
+.applied-job-common-style {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
 @media only screen and (max-width: 600px) {
     .applied-component-area {
         border: 1px solid #E8E8E8;
