@@ -19,6 +19,9 @@ const Header = () => {
                         <Link to="/" className="block mt-4 text-[#757575] lg:inline-block lg:mt-0 mr-4">
                             Home
                         </Link>
+                        <Link to="/statistics" className="block mt-4 text-[#757575] lg:inline-block lg:mt-0 mr-4">
+                            Statistics
+                        </Link>
                         <Link to="/applied-jobs" className="block mt-4 text-[#757575] lg:inline-block lg:mt-0 mr-4">
                             Applied Jobs
                         </Link>
