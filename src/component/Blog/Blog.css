@@ -1,0 +1,36 @@
+.blog-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60PX;
+
+}
+
+.blog-content {
+    border: 1px solid #E8E8E8;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.blog-content h1 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.blog-content p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+@media only screen and (max-width: 600px) {
+    .blog-area {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+}
