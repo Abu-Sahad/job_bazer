@@ -17,8 +17,6 @@ const JobDetails = () => {
             })
             .catch(error => console.error(error));
     }, [id]);
-    console.log(job)
-
     if (!job) {
         return <div>Job not found</div>;
     }

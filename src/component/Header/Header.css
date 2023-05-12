@@ -15,10 +15,25 @@
     margin-right: 25px;
 }
 
+#header-img {
+    width: 816px;
+    height: 570px;
+    border-radius: 20px;
+}
+
+#header-img img {}
+
+.nav-tittle {
+    margin-left: 180px;
+}
+
 @media only screen and (max-width: 600px) {
     #header-context {
         margin-left: 100px;
         margin-right: 25px;
+    }
+    .nav-tittle {
+        margin-left: 15px;
     }
 
     .btn-Common {
@@ -34,18 +49,4 @@
     .button-class {
         margin-top: 20px;
     }
-}
-
-
-
-#header-img {
-    width: 816px;
-    height:570px;
-    border-radius: 20px;
-}
-
-#header-img img {}
-
-.nav-tittle {
-    margin-left: 180px;
 }
